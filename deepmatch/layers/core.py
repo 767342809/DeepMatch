@@ -1,7 +1,7 @@
 import tensorflow as tf
 from deepctr.layers.activation import activation_layer
 from deepctr.layers.utils import reduce_max, reduce_mean, reduce_sum, concat_func, div, softmax
-from tensorflow.python.keras.initializers import RandomNormal, Zeros, glorot_normal
+from tensorflow.keras.initializers import RandomNormal, Zeros, glorot_normal
 from tensorflow.python.keras.layers import Layer
 from tensorflow.python.keras.regularizers import l2
 
